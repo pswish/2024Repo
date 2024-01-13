@@ -1,2 +1,2 @@
 # 2024Repo
-Repo for schhol work and projects in 2024
+Repo for school work and projects in 2024
