@@ -1,0 +1,38 @@
+/* CSS for the web for page */
+body {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    background-color: #deb50e;
+    text-align: center;
+    margin: 50px;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #e9d899;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #584ec8;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
