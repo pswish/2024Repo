@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say Hello</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+</head>
+    <body>
+        <img src="{{ url_for('static', filename='css/SayHello.png') }}" alt="Say Hello Image">
+        <br>
+        <form action="greet" method="post">
+            {% for message in get_flashed_messages()%}
+            <p> {{message}} </p>
+            {% endfor %}
+            <br>
+            <input type="text" name="name_input">
+            <br>
+            <input type="submit" value="GREET" id="greet
+            ">
+        </form>
+    </body>
+</html>
