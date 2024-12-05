@@ -1,0 +1,34 @@
+Left camera matrix:
+ [[ 938.79062088    0.          276.03572753]
+ [   0.          941.30484548  216.55419324]
+ [   0.            0.            1.        ]]
+
+Right camera matrix:
+ [[ 970.08771863    0.          407.49907365]
+ [   0.          967.09393143  277.92169798]
+ [   0.            0.            1.        ]]
+Camera Matrices: These represent the intrinsic parameters of each camera. They look reasonable, with focal lengths around 940-970 pixels.
+
+Rotation matrix:
+ [[ 0.99299203  0.02590222 -0.11530789]
+ [-0.00896751  0.98938719  0.14502613]
+ [ 0.11784065 -0.14297576  0.98268587]]
+Rotation Matrix: This shows the relative orientation between the two cameras. The values are close to an identity matrix, which is expected for roughly parallel cameras.
+
+Translation vector:
+ [[-3.5767362 ]
+ [-4.42685086]
+ [ 0.579342  ]]
+Translation Vector: This represents the position of the right camera relative to the left. The values suggest that the right camera is about 3.58 mm to the left, 4.43 mm down, and 0.58 mm forward compared to the left camera.
+
+Essential matrix:
+ [[-0.51646773  0.05973884 -4.4342235 ]
+ [ 0.9967669  -0.49638035  3.44800541]
+ [ 4.42790203 -3.42411171 -1.02917105]]
+Essential Matrix: This encodes the epipolar geometry of the stereo setup.
+
+Fundamental matrix:
+ [[  8.36176806e-07  -9.64606398e-08   6.52978489e-03]
+ [ -1.61879139e-06   8.03989366e-07  -4.98421434e-03]
+ [ -6.84531240e-03   5.17941120e-03   1.00000000e+00]]
+Fundamental Matrix: This also represents the epipolar geometry, but in pixel coordinates.
